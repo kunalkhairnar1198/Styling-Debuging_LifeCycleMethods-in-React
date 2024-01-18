@@ -34,6 +34,7 @@ const CourseInput = props => {
   return (
     <form onSubmit={formSubmitHandler}>
       <div className="form-control">
+        {/* conditional styling when is input box is empty submit then style will chage and validating input boxes*/}
         <label 
         style={{color: !isValid ? 'red' : 'black'}}>
           Course Goal
